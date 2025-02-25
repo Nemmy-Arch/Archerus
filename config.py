@@ -9,8 +9,8 @@ def create_dir_if_not_exists(directory: str) -> None:
 
 # API Credentials
 # It's a good practice to load these from environment variables.
-API_KEY: str = os.environ.get("API_KEY", "ab80e273924516b066061ebda000e0c4")
-SECRET_KEY: str = os.environ.get("SECRET_KEY", "7ee54cc01dcfaef1086c36c7439e47e4")
+API_KEY: str = os.environ.get("API_KEY", "")
+SECRET_KEY: str = os.environ.get("SECRET_KEY", "")
 
 # HTTP Headers for API calls
 PUBLIC_HEADERS: Dict[str, str] = {"Content-Type": "application/json"}
