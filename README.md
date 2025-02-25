@@ -1,2 +1,1 @@
-# Archerus
-RL based trading bot
+My first attempt at a Machine learning project, I used ChatGPT to help streamline the development and I did the testing and debugging and other parts of development. at its current stage it is rather crude, it needs better data handling and better training parameters, auto trading function on accounts is in development.
